@@ -59,5 +59,8 @@
   "bugs": {
     "url": "https://github.com/neuefische/javascript-app-template/issues"
   },
-  "homepage": "https://github.com/neuefische/javascript-app-template#readme"
+  "homepage": "https://github.com/neuefische/javascript-app-template#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
+  }
 }

@@ -1,0 +1,29 @@
+.Card {
+  box-shadow: 0 4px 12px #000a;
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+  gap: 10px;
+  padding-top: 20px;
+  grid-template-columns: 10px auto 10px;
+}
+
+.Card > * {
+  grid-column: 2; /* only the middle column */
+}
+
+.Card__heading {
+  font-weight: 400;
+}
+
+.Card__house {
+  display: grid;
+  text-transform: uppercase;
+}
+
+.Card__image {
+  grid-column: 1 / -1; /* all columns – full width */
+  width: 100%;
+  height: auto;
+  display: block;
+}
